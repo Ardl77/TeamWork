@@ -21,6 +21,7 @@ public class GameLogin {
         boolean flag = new GameLogin().login(username,password);
         if(flag){
             new GameFrame();
+            //new GameFrame();
         }else {
             System.out.println("Username or password is incorrect");
         }
